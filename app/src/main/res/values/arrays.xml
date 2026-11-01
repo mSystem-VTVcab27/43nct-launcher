@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="oob_order">
-        <item>com.android.vending</item>
-        <item>com.google.android.youtube.tv</item>
-        <item>com.google.android.youtube.tvmusic</item>
-        <item>com.google.android.play.games</item>
-    </array>
-</resources>
