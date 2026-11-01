@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/view_pager_padding_top"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/overscan_horizontal"
+    android:paddingEnd="@dimen/overscan_horizontal">
+    <com.vctv.launcher.util.CustomTextView
+        android:textSize="@dimen/app_row_title_text_size"
+        android:id="@+id/install_apps"
+        android:padding="@dimen/app_row_title_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/installed_apps"/>
+    <com.vctv.launcher.app.view.AppVerticalGridView
+        android:id="@+id/app_vertical_view"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/app_margin_size"
+        app:focusOutEnd="true"
+        app:focusOutFront="true"/>
+    <com.vctv.launcher.app.view.AppHorizonGridView
+        android:id="@+id/app_horizon_view"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/app_margin_size"/>
+</LinearLayout>

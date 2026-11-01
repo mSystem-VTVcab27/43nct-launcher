@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher_config version="1.0">
+    <netflix
+        is_integrated="false"
+        iid_favapp=""
+        iid_app=""
+        iid_channel="" />
+    <global_style>
+        <text
+            font=""
+            default_color="#FFFFFFFF"
+            selected_color="#FFFFFFFF"
+            focused_color="#FFFFFFFF" />
+        <background
+            color="#FF101216"
+            dynamic_effect="true"
+            transition_speed="300" />
+        <item_style
+            size="medium"
+            corner_radius="12"
+            border_width="3"
+            selection_mode="zoom"
+            zoom_scale="1.18"
+            zoom_speed="150"
+            selected_border_color="#FFFFFFFF" />
+    </global_style>
+    <logo_config
+        enabled="true"
+        path="" />
+    <pagination_config>
+        <page
+            id="home"
+            enabled="true"
+            order="0" />
+        <page
+            id="apps"
+            enabled="true"
+            order="1" />
+        <fav_apps
+            max_count="20"
+            scroll_direction="horizontal"
+            show_label="true" />
+        <channels
+            enabled="true" />
+        <item_config
+            scroll_direction="vertical"
+            show_label="true"
+            order="recent" />
+        <recommend
+            enabled="true" />
+    </pagination_config>
+</launcher_config>

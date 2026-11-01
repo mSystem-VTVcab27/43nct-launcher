@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/app_bg_border_width"
+        android:top="@dimen/app_bg_border_width"
+        android:right="@dimen/app_bg_border_width"
+        android:bottom="@dimen/app_bg_border_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_bg"/>
+            <corners android:radius="@dimen/app_bg_corner_radius"/>
+        </shape>
+    </item>
+</layer-list>

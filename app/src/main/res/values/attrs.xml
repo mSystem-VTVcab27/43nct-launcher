@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ItemFocusedColor" format="color" />
+    <attr name="centerText" format="reference|string" />
+    <attr name="centerTextColor" format="reference|color" />
+    <attr name="centerTextSize" format="dimension" />
+    <attr name="focusedColor" format="color" />
+    <attr name="iconBackground" format="reference|color" />
+    <attr name="iconSize" format="dimension" />
+    <attr name="src" format="reference" />
+
+    <declare-styleable name="IconNavButton">
+        <attr name="centerText" />
+        <attr name="centerTextColor" />
+        <attr name="centerTextSize" />
+        <attr name="focusedColor" />
+        <attr name="iconBackground" />
+        <attr name="iconSize" />
+        <attr name="src" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationItem">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:hint" />
+        <attr name="ItemFocusedColor" />
+    </declare-styleable>
+</resources>
